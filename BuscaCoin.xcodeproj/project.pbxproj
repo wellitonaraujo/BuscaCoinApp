@@ -17,6 +17,10 @@
 		F9AE598C2BB2F84700EB2268 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE598B2BB2F84700EB2268 /* CircleButtonAnimationView.swift */; };
 		F9AE598F2BB300B400EB2268 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE598E2BB300B400EB2268 /* CoinModel.swift */; };
 		F9AE59912BB33CED00EB2268 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE59902BB33CED00EB2268 /* CoinRowView.swift */; };
+		F9AE59932BB3404800EB2268 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE59922BB3404800EB2268 /* PreviewProvider.swift */; };
+		F9AE59952BB34A1300EB2268 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE59942BB34A1300EB2268 /* Date.swift */; };
+		F9AE59972BB34B0600EB2268 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE59962BB34B0600EB2268 /* Double.swift */; };
+		F9AE59992BB4466E00EB2268 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE59982BB4466E00EB2268 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		F9AE598B2BB2F84700EB2268 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		F9AE598E2BB300B400EB2268 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		F9AE59902BB33CED00EB2268 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		F9AE59922BB3404800EB2268 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		F9AE59942BB34A1300EB2268 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		F9AE59962BB34B0600EB2268 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		F9AE59982BB4466E00EB2268 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				F9A583622BAB638100D22F80 /* Color.swift */,
+				F9AE59922BB3404800EB2268 /* PreviewProvider.swift */,
+				F9AE59942BB34A1300EB2268 /* Date.swift */,
+				F9AE59962BB34B0600EB2268 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -95,7 +106,6 @@
 			children = (
 				F9A5836A2BAB6D5E00D22F80 /* Components */,
 				F9A583652BAB695300D22F80 /* Home */,
-				F9AE598E2BB300B400EB2268 /* CoinModel.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -112,6 +122,7 @@
 		F9A583662BAB696800D22F80 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F9AE59982BB4466E00EB2268 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -145,6 +156,7 @@
 		F9AE598D2BB3006700EB2268 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F9AE598E2BB300B400EB2268 /* CoinModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,12 +232,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9AE59912BB33CED00EB2268 /* CoinRowView.swift in Sources */,
+				F9AE59952BB34A1300EB2268 /* Date.swift in Sources */,
 				F9A583542BAB583300D22F80 /* ContentView.swift in Sources */,
 				F9A583692BAB699A00D22F80 /* HomeView.swift in Sources */,
 				F9A583522BAB583300D22F80 /* BuscaCoinApp.swift in Sources */,
 				F9A5836D2BAB6D9500D22F80 /* CircleButtonView.swift in Sources */,
 				F9A583632BAB638100D22F80 /* Color.swift in Sources */,
+				F9AE59992BB4466E00EB2268 /* HomeViewModel.swift in Sources */,
 				F9AE598C2BB2F84700EB2268 /* CircleButtonAnimationView.swift in Sources */,
+				F9AE59932BB3404800EB2268 /* PreviewProvider.swift in Sources */,
+				F9AE59972BB34B0600EB2268 /* Double.swift in Sources */,
 				F9AE598F2BB300B400EB2268 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,11 +374,11 @@
 				DEVELOPMENT_TEAM = V5644P74A6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,11 +403,11 @@
 				DEVELOPMENT_TEAM = V5644P74A6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

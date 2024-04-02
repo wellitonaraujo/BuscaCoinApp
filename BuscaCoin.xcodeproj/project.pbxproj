@@ -21,6 +21,7 @@
 		F9AE59952BB34A1300EB2268 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE59942BB34A1300EB2268 /* Date.swift */; };
 		F9AE59972BB34B0600EB2268 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE59962BB34B0600EB2268 /* Double.swift */; };
 		F9AE59992BB4466E00EB2268 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE59982BB4466E00EB2268 /* HomeViewModel.swift */; };
+		F9C4C2F42BBC2D73005C5049 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C4C2F32BBC2D73005C5049 /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F9AE59942BB34A1300EB2268 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		F9AE59962BB34B0600EB2268 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		F9AE59982BB4466E00EB2268 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F9C4C2F32BBC2D73005C5049 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		F9A583502BAB583300D22F80 /* BuscaCoin */ = {
 			isa = PBXGroup;
 			children = (
+				F9C4C2F22BBC2D49005C5049 /* Services */,
 				F9AE598D2BB3006700EB2268 /* Models */,
 				F9A583642BAB694B00D22F80 /* Core */,
 				F9A583612BAB61B900D22F80 /* Extensions */,
@@ -161,6 +164,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F9C4C2F22BBC2D49005C5049 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F9C4C2F32BBC2D73005C5049 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,6 +247,7 @@
 				F9A583542BAB583300D22F80 /* ContentView.swift in Sources */,
 				F9A583692BAB699A00D22F80 /* HomeView.swift in Sources */,
 				F9A583522BAB583300D22F80 /* BuscaCoinApp.swift in Sources */,
+				F9C4C2F42BBC2D73005C5049 /* CoinDataService.swift in Sources */,
 				F9A5836D2BAB6D9500D22F80 /* CircleButtonView.swift in Sources */,
 				F9A583632BAB638100D22F80 /* Color.swift in Sources */,
 				F9AE59992BB4466E00EB2268 /* HomeViewModel.swift in Sources */,
